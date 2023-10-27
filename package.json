@@ -2,9 +2,10 @@
   "name": "create-t3-turbo",
   "private": true,
   "engines": {
-    "node": ">=18.18.2"
+    "node": ">=20.9.0",
+    "pnpm": ">=8.10.0"
   },
-  "packageManager": "pnpm@8.9.2",
+  "packageManager": "^pnpm@8.10.0",
   "scripts": {
     "build": "turbo build",
     "clean": "git clean -xdf node_modules",
@@ -21,11 +22,12 @@
     "@manypkg/cli": "^0.21.0",
     "@turbo/gen": "^1.10.15",
     "prettier": "^3.0.3",
-    "turbo": "^1.10.15",
+    "turbo": "^1.10.16",
     "typescript": "^5.2.2",
     "next": "^13.5.4"
   },
   "volta": {
-    "node": "20.9.0"
+    "node": "20.9.0",
+    "pnpm": "8.10.0"
   }
 }
