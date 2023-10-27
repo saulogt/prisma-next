@@ -10,6 +10,7 @@ export const postRouter = createTRPCRouter({
     return ctx.db.query.post.findMany({ orderBy: desc(schema.post.id) });
   }),
 
+  //
   byId: publicProcedure
     .input(z.object({ id: z.number() }))
     .query(({ ctx, input }) => {
