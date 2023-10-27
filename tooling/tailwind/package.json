@@ -21,7 +21,6 @@
   },
   "devDependencies": {
     "@acme/eslint-config": "^0.2.0",
-    "@acme/prettier-config": "^0.1.0",
     "@acme/tsconfig": "^0.1.0",
     "eslint": "^8.52.0",
     "prettier": "^3.0.3",
@@ -32,6 +31,5 @@
     "extends": [
       "@acme/eslint-config/base"
     ]
-  },
-  "prettier": "@acme/prettier-config"
+  }
 }
