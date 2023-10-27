@@ -2,10 +2,10 @@
   "name": "create-t3-turbo",
   "private": true,
   "engines": {
-    "node": ">=18.18.0",
-    "pnpm": ">=8.10.0"
+    "node": ">=18.17.1",
+    "pnpm": ">=8.9.2"
   },
-  "packageManager": "^pnpm@8.10.0",
+  "packageManager": "^pnpm@8.9.2",
   "scripts": {
     "build": "turbo build",
     "clean": "git clean -xdf node_modules",
@@ -27,7 +27,7 @@
     "next": "^13.5.4"
   },
   "volta": {
-    "node": "18.18.2",
-    "pnpm": "8.10.0"
+    "node": "18.17.1",
+    "pnpm": "8.9.2"
   }
 }
